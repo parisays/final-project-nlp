@@ -17,109 +17,62 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{Ref1}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=e}{%
-         family={electronicsnotes},
-         familyi={e\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{e1}
-    \strng{fullhash}{e1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{What is OFDM: Orthogonal Frequency Division Multiplexing}
-    \verb{url}
-    \verb https://www.electronics-notes.com/articles/radio/multicarrier-modulat
-    \verb ion/ofdm-orthogonal-frequency-division-multiplexing-what-is-tutorial-
-    \verb basics.php
-    \endverb
-    \field{type}{Web Page}
-  \endentry
-
-  \entry{Ref4}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={Wikipedia},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Orthogonal frequency-division multiplexing}
-    \verb{url}
-    \verb https://fa.wikipedia.org/wiki/%D9%85%D8%AF%D9%88%D9%84%D8%A7%D8%B3%DB
-    \verb %8C%D9%88%D9%86_%D8%AA%D9%82%D8%B3%DB%8C%D9%85_%D9%81%D8%B1%DA%A9%D8%
-    \verb A7%D9%86%D8%B3_%D8%B9%D9%85%D9%88%D8%AF%D8%A8%D8%B1%D9%87%D9%85
-    \endverb
-    \field{type}{Web Page}
-  \endentry
-
-  \entry{Ref2}{article}{}
-    \name{author}{4}{}{%
-      {{hash=DAF}{%
-         family={Demir},
-         familyi={D\bibinitperiod},
-         given={Ali\bibnamedelima Fatih},
-         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=EM}{%
-         family={Elkourdi},
-         familyi={E\bibinitperiod},
-         given={Mohamed},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=IM}{%
-         family={Ibrahim},
-         familyi={I\bibinitperiod},
-         given={Mostafa},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=AH}{%
-         family={Arslan},
-         familyi={A\bibinitperiod},
-         given={Huseyin},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {John Wiley & Sons, Inc.}%
-    }
-    \strng{namehash}{DAFEMIM+1}
-    \strng{fullhash}{DAFEMIMAH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1002/9781119333142.ch2
-    \endverb
-    \field{isbn}{9781119332732}
-    \field{pages}{51–76}
-    \field{title}{Waveform Design for 5G and Beyond}
-    \verb{url}
-    \verb http://dx.doi.org/10.1002/9781119333142.ch2
-    \endverb
-    \field{journaltitle}{5G Networks: Fundamental Requirements, Enabling
-  Technologies, and Operations Management}
-    \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
   \entry{Ref3}{misc}{}
     \name{author}{1}{}{%
-      {{hash=N}{%
-         family={Nokia},
-         familyi={N\bibinitperiod},
+      {{hash=BD}{%
+         family={Bitvinskas},
+         familyi={B\bibinitperiod},
+         given={Domas},
+         giveni={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
+    \strng{namehash}{BD1}
+    \strng{fullhash}{BD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{5G spectrum bands explained}
+    \field{title}{PyTorch LSTM: Text Generation Tutorial}
     \verb{url}
-    \verb https://www.nokia.com/networks/insights/spectrum-bands-5g-world/
+    \verb https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial
+    \endverb
+    \field{type}{Web Page}
+  \endentry
+
+  \entry{Ref1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=h}{%
+         family={huggingface},
+         familyi={h\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{h1}
+    \strng{fullhash}{h1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{language\_modeling}
+    \verb{url}
+    \verb https://github.com/huggingface/notebooks/blob/master/examples/languag
+    \verb e_modeling.ipynb
+    \endverb
+    \field{type}{Web Page}
+  \endentry
+
+  \entry{Ref2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Patel},
+         familyi={P\bibinitperiod},
+         given={Ronak},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Transformers for Multi-Label Classification made simple.}
+    \verb{url}
+    \verb https://towardsdatascience.com/transformers-for-multilabel-classifica
+    \verb tion-71a1a0daf5e1
     \endverb
     \field{type}{Web Page}
   \endentry
