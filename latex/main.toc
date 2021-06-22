@@ -2,7 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}\lr {word2vec}}{5}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}\lr {language modeling}}{7}{section.2}%
+\contentsline {section}{\numberline {2}\lr {language model}}{7}{section.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}\lr {fine tuning}}{8}{section.3}%
 \defcounter {refsection}{0}\relax 
