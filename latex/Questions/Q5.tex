@@ -49,7 +49,7 @@
 		Romance  & $\input{../report/fine_tuning/Romance_bert_lm/perplexity.txt} $ \\
 		\hline
 	\end{tabular}
-\caption{\label{tab51}مقایسه perplexity مدل زبانی ژانرها}
+\caption{\label{tab51}مقایسه perplexity مدل زبانی ژانرها \lr{fine-tune}}
 \end{center}
 \end{table}
 \end{center}
@@ -83,7 +83,7 @@
 				Romance  & \lr{ an accident \textcolor{blue}{dimension world called nanamiunusual day}} \\
 				\hline
 			\end{tabular}
-			\caption{\label{tab52}مقایسه جملات تولید شده }
+			\caption{\label{tab52}مقایسه جملات تولید شده \lr{fine-tune}}
 		\end{center}
 	\end{table}
 \end{center}
@@ -117,9 +117,17 @@
 				Romance  & \lr{he was from \textcolor{blue}{heaven told never say anything one day}} \\
 				\hline
 			\end{tabular}
-			\caption{\label{tab53}مقایسه جملات تولید شده }
+			\caption{\label{tab53}مقایسه جملات تولید شده \lr{fine-tune}}
 		\end{center}
 	\end{table}
+
+در مجموع جملات تولید شده توسط مدل های 
+\lr{fine-tune}
+شده، کیفیت و خوانایی بهتری نسبت به مدل های قسمت قبل دارد که این نشان دهنده مزایای استفاده از مدل های از پیش آموزش دیده است. مثال های آورده شده از مجموعه پیش بینی های مدل ها دستچین شده اند. فایل کامل کلمات تولید شده توسط هر مدل با اسم 
+\textit{predictions.txt}
+در پوشه 
+\textit{reports}
+قرار دارد.
 
 
 \subsection{رده بندی}

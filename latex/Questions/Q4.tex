@@ -1,8 +1,78 @@
-\section{\lr{language modeling}}
+\section{\lr{language model}}
 در این قسمت از 3 لایه
 LSTM
 با اندازه 128 و اندازه
 \lr{embedding}
-128 به عنوان مدل زبانی استفاده شده است \cite{Ref3}. مدل هر ژانر از مجموعه داده جملات تمیز شده استفاده می کند و به مدت 5 دور با طول
+128 به عنوان مدل زبانی استفاده شده است \cite{Ref3}. مدل هر ژانر از مجموعه داده جملات تمیز شده استفاده می کند (مدل زبانی در سطح کلمه است) و به مدت 5 دور با طول
 \lr{sequence}
-15 آموزش می بیند. 
+15 آموزش می بیند. جملات تولید شده در کل کیفیت مناسبی ندارند، یکی از دلایل آن حذف کردن 
+stopwords
+و استفاده از
+Lemmatizer
+روی داده اولیه است. دلیل دوم کم بودن داده و کوتاه بودن مدت زمان آموزش مدل زبانی ست.  مثال اول از جملات تولید شده توسط این مدل ها در جدول
+\ref{tab41}
+آورده شده است. ژانر 
+\lr{Action}،
+\lr{Drama}
+و
+\lr{Romance}
+به نسبت جمله مناسبی تولید کرده اند.
+
+	\begin{table}
+	\begin{center}
+		\begin{tabular}{ |c|c| }
+			\hline
+			\textbf{Genre} & \textbf{Sentence} \\ 
+			\hline
+			Action  & \lr{ boy \textcolor{blue}{bikie skull weapon rich renewed} }\\
+			\hline
+			Adventure  & \lr{ boy \textcolor{blue}{sinner welcoming meant back power}} \\
+			\hline
+			Fantasy  & \lr{ boy \textcolor{blue}{rakuga forest omen witness challenge}} \\
+			\hline
+			Drama & \lr{ boy \textcolor{blue}{week currently girl called haruka}} \\
+			\hline
+			Comedy  & \lr{boy \textcolor{blue}{chief giving always wife food}} \\
+			\hline
+			Romance  & \lr{boy \textcolor{blue}{masamune would bound tattoo heart}} \\
+			\hline
+		\end{tabular}
+		\caption{\label{tab41}مقایسه جملات تولید شده \lr{language model}}
+	\end{center}
+\end{table}
+
+مثال دوم جملات تولید شده در جدول
+\ref{tab42}
+آورده شده است. در این مثال می توان گفت تقریبا همه مدل ها به 
+Romance
+کلمات مرتبط با ژانر خود تولید کرده اند.
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{ |c|c| }
+			\hline
+			\textbf{Genre} & \textbf{Sentence} \\ 
+			\hline
+			Action  & \lr{ help \textcolor{blue}{destroy kirigakure three fantasy universe} }\\
+			\hline
+			Adventure  & \lr{ help \textcolor{blue}{bao impaled unworldly old robot}} \\
+			\hline
+			Fantasy  & \lr{ help \textcolor{blue}{accident target saintess begin power}} \\
+			\hline
+			Drama & \lr{ help \textcolor{blue}{trusted spin giving distant home}} \\
+			\hline
+			Comedy  & \lr{help \textcolor{blue}{study letter group haruka kiriko}} \\
+			\hline
+			Romance  & \lr{help \textcolor{blue}{expected front follows potential}} \\
+			\hline
+		\end{tabular}
+		\caption{\label{tab42}مقایسه جملات تولید شده \lr{language model}}
+	\end{center}
+\end{table}
+
+مثال های آورده شده از مجموعه پیش بینی های مدل ها دستچین شده اند. فایل کامل کلمات تولید شده توسط هر مدل با اسم 
+\textit{<label>\_predictions.txt}
+در پوشه 
+\textit{reports}
+قرار دارد.
+
