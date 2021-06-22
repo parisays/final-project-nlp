@@ -1,0 +1,114 @@
+04-22 11:02:54.716 11754 11754 D SST : [0] KnoxGuard: setNetRegistRejectCause() ret : 0
+
+04-22 11:02:54.716 11754 11754 D SST : [0] Use Voice LAC for CellLocation LAC
+
+04-22 11:02:54.716 11754 11754 D SST : [0] Use Voice CID for CellLocation CID
+
+04-22 11:02:54.716 11754 11754 D SST : [0] handlPollVoiceRegResultMessage: regState=1 radioTechnology=3
+
+04-22 11:02:54.717 11754 11754 D SST : [0] setRoamingType: currentRoamingType = 0
+
+04-22 11:02:54.718 11754 11754 D SST : [0] Poll ServiceState done: oldSS=[{mVoiceRegState=0(IN_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, VoiceRegType=0, ImsVoiceAvail=0, IsEbSupport=2, IsEaBarred=0, Snap=0, MobileVoice=IN_SERVICE, MobileVoiceRat=UMTS, MobileData=OUT_OF_SERVICE, MobileDataRoamingType=home, MobileDataRat=Unknown PsOnly=false FemtocellInd=0 EndcStatus=0 RestrictDcnr=0 NrBearerStatus=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=4 mLac=31212 mCid=4281442 mTac=65534 mSnapshotStatus=0 mMobileState=0 mMobileRat=0 mMobileOptionalRat=0}}, NetworkRegistrationState{transportType=1 domain=CS regState=HOME accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=false supportedServices=[I@41025d4 cellIdentity=CellIdentityWcdma:{ mLac=31212 mCid=4281442 mPsc=0 mUarfcn=-1 mMcc=432 mMnc=11 mAlphaLong=IR-MCI mAlphaShort=IR-MCI} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0 mLac=31212 mCid=4281442 mPsVoiceSupport2 mImsEmergencyCallSupport2 mImsEmergencyCallBarring0 mMobileState1 mMobileRat3 mIsPsOnlyRegfalse} dataSpecificStates=null}]}]
+
+04-22 11:02:54.718 11754 11754 D SST : [0] Poll ServiceState done: newSS=[{mVoiceRegState=0(IN_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, VoiceRegType=0, ImsVoiceAvail=0, IsEbSupport=2, IsEaBarred=0, Snap=0, MobileVoice=IN_SERVICE, MobileVoiceRat=UMTS, MobileData=OUT_OF_SERVICE, MobileDataRoamingType=home, MobileDataRat=Unknown PsOnly=false FemtocellInd=0 EndcStatus=0 RestrictDcnr=0 NrBearerStatus=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=4 mLac=31212 mCid=4281443 mTac=65534 mSnapshotStatus=0 mMobileState=0 mMobileRat=0 mMobileOptionalRat=0}}, NetworkRegistrationState{transportType=1 domain=CS regState=HOME accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=false supportedServices=[I@aba96c3 cellIdentity=CellIdentityWcdma:{ mLac=31212 mCid=4281443 mPsc=0 mUarfcn=-1 mMcc=432 mMnc=11 mAlphaLong=IR-MCI mAlphaShort=IR-MCI} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0 mLac=31212 mCid=4281443 mPsVoiceSupport2 mImsEmergencyCallSupport2 mImsEmergencyCallBarring0 mMobileState1 mMobileRat3 mIsPsOnlyRegfalse} dataSpecificStates=null}]}]
+
+04-22 11:02:54.718 11754 11754 D SST : [0] oldMaxDataCalls=4 mNewMaxDataCalls=4 oldReasonDataDenied=0 mNewReasonDataDenied=0
+
+04-22 11:02:54.718 11754 11754 D SST : [0] KnoxGuard. mRejectCode: 0, mNewRejectCode: 0
+
+04-22 11:02:54.718 11754 11754 D SST : [0] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=true hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=true has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+
+04-22 11:02:54.720 11754 11754 D SST : [0] setSpnDynamic: rule - , spn - , onlyOn - null
+
+04-22 11:02:54.720 11754 11754 D SIMRecords0: [SIMRecords] getServiceProviderName: no brandOverride, providerName=IR-MCI
+
+04-22 11:02:54.723 11754 11754 D SIMRecords0: [SIMRecords] getServiceProviderName: no brandOverride, providerName=IR-MCI
+
+04-22 11:02:54.726 11754 11754 D SubscriptionController: [getPhoneId]- subId=0 not found return default phoneId=0
+
+04-22 11:02:54.728 11754 11754 D LocaleTracker: updateOperatorNumericSync. mcc/mnc=43211
+
+04-22 11:02:54.728 11754 11754 D SST : [0] Before handleNetworkCountryCodeKnown: countryChanged=false iccCardExist=true countryIsoChanged=false operatorNumeric=43211 prevOperatorNumeric=43211 countryIsoCode=ir prevCountryIsoCode=ir ltod=04-22 11:02:54.728
+
+04-22 11:02:54.729 11754 11754 D SST : TIMEZONE : tz empty or used for ir
+
+04-22 11:02:54.729 11754 11754 D TelephonyManager: setNetworkRoamingForPhone - caller PID:11754, UID: 1001, TID: 11754
+
+04-22 11:02:54.730 11754 11754 D SST : [0] setRoamingType: currentRoamingType = 0
+
+04-22 11:02:54.730 11754 11754 D SST : [0] Broadcasting ServiceState : {mVoiceRegState=0(IN_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, VoiceRegType=0, ImsVoiceAvail=0, IsEbSupport=2, IsEaBarred=0, Snap=0, MobileVoice=IN_SERVICE, MobileVoiceRat=UMTS, MobileData=OUT_OF_SERVICE, MobileDataRoamingType=home, MobileDataRat=Unknown PsOnly=false FemtocellInd=0 EndcStatus=0 RestrictDcnr=0 NrBearerStatus=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=4 mLac=31212 mCid=4281443 mTac=65534 mSnapshotStatus=0 mMobileState=0 mMobileRat=0 mMobileOptionalRat=0}}, NetworkRegistrationState{transportType=1 domain=CS regState=HOME accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=false supportedServices=[I@aba96c3 cellIdentity=CellIdentityWcdma:{ mLac=31212 mCid=4281443 mPsc=0 mUarfcn=-1 mMcc=432 mMnc=11 mAlphaLong=IR-MCI mAlphaShort=IR-MCI} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0 mLac=31212 mCid=4281443 mPsVoiceSupport2 mImsEmergencyCallSupport2 mImsEmergencyCallBarring0 mMobileState1 mMobileRat3 mIsPsOnlyRegfalse} dataSpecificStates=null}]}
+
+04-22 11:02:54.730 11754 11754 D SST : [0] Notify Merged ServiceState : {mVoiceRegState=0(IN_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, VoiceRegType=0, ImsVoiceAvail=0, IsEbSupport=2, IsEaBarred=0, Snap=0, MobileVoice=IN_SERVICE, MobileVoiceRat=UMTS, MobileData=OUT_OF_SERVICE, MobileDataRoamingType=home, MobileDataRat=Unknown PsOnly=false FemtocellInd=0 EndcStatus=0 RestrictDcnr=0 NrBearerStatus=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=4 mLac=31212 mCid=4281443 mTac=65534 mSnapshotStatus=0 mMobileState=0 mMobileRat=0 mMobileOptionalRat=0}}, NetworkRegistrationState{transportType=1 domain=CS regState=HOME accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=false supportedServices=[I@aba96c3 cellIdentity=CellIdentityWcdma:{ mLac=31212 mCid=4281443 mPsc=0 mUarfcn=-1 mMcc=432 mMnc=11 mAlphaLong=IR-MCI mAlphaShort=IR-MCI} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0 mLac=31212 mCid=4281443 mPsVoiceSupport2 mImsEmergencyCallSupport2 mImsEmergencyCallBarring0 mMobileState1 mMobileRat3 mIsPsOnlyRegfalse} dataSpecificStates=null}]}
+
+04-22 11:02:54.730 11754 11754 D DefaultPhoneNotifier: nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@3f66829 ss={mVoiceRegState=0(IN_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, VoiceRegType=0, ImsVoiceAvail=0, IsEbSupport=2, IsEaBarred=0, Snap=0, MobileVoice=IN_SERVICE, MobileVoiceRat=UMTS, MobileData=OUT_OF_SERVICE, MobileDataRoamingType=home, MobileDataRat=Unknown PsOnly=false FemtocellInd=0 EndcStatus=0 RestrictDcnr=0 NrBearerStatus=0, mIsEmergencyOnly=false, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=4 mLac=31212 mCid=4281443 mTac=65534 mSnapshotStatus=0 mMobileState=0 mMobileRat=0 mMobileOptionalRat=0}}, NetworkRegistrationState{transportType=1 domain=CS regState=HOME accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=false supportedServices=[I@aba96c3 cellIdentity=CellIdentityWcdma:{ mLac=31212 mCid=4281443 mPsc=0 mUarfcn=-1 mMcc=432 mMnc=11 mAlphaLong=IR-MCI mAlphaShort=IR-MCI} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0 mLac=31212 mCid=4281443 mPsVoiceSupport2 mImsEmergencyCallSupport2 mImsEmergencyCallBarring0 mMobileState1 mMobileRat3 mIsPsOnlyRegfalse} dataSpecificStates=null}]} sender=Handler (com.android.internal.telephony.GsmCdmaPhone) {596be54} phondId=0 subId=1
+
+04-22 11:02:54.735 11754 11754 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.736 3903 15999 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:54.740 3903 15999 D TelephonyRegistry: notifyCellLocationForSubscriber: subId=1 cellLocation=hidden
+
+04-22 11:02:54.745 11754 11754 D GsmCdmaPhone: [0] Event EVENT_SERVICE_STATE_CHANGED Received (For emergnecy number)
+
+04-22 11:02:54.747 11754 11754 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.747 11754 11754 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:54.747 11754 11754 D GsmCdmaPhone: [0] setEmergencyNumbers: state=5 for PhoneId:0
+
+04-22 11:02:54.749 11754 11754 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=1
+
+04-22 11:02:54.749 11754 11754 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=1
+
+04-22 11:02:54.749 11754 11754 D GsmCdmaPhone: [0] setEmergencyNumbers: state=5 for PhoneId:1
+
+04-22 11:02:54.753 11754 11754 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.753 11754 11754 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:54.753 11754 11754 D GsmCdmaPhone: [0] setEmergencyNumbers - withSIM: true, simState: 5, emergencyNumbersForOperator: 112,911,112,911
+
+04-22 11:02:54.753 11754 11754 D GsmCdmaPhone: [0] setEmergencyNumbers - emergency number is not changed
+
+04-22 11:02:54.753 11754 11754 D ImsPhone: [0] handleMessage what=128
+
+04-22 11:02:54.766 11754 12448 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo= XXX
+
+04-22 11:02:54.775 11754 12448 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.776 27714 27714 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:54.777 11754 12448 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.777 27714 27714 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:54.782 11754 12448 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=1 subInfo= XXX
+
+04-22 11:02:54.791 11754 12448 D SubscriptionController: [getActiveSubscriptionInfo]+ subId=2 subInfo= XXX
+
+04-22 11:02:54.799 11754 12448 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.799 27714 27714 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:54.803 11754 12448 D SubscriptionController: getSimStateForSlotIndex: simState=LOADED ordinal=10 slotIndex=0
+
+04-22 11:02:54.804 27714 27714 D SubscriptionManager: getSimStateForSlotIdx: simState=10 slotIndex=0
+
+04-22 11:02:55.495 3919 3931 E RILC : currentSignalStrengthInd: Using vendor specific codes to proceed it
+
+04-22 11:02:56.932 11754 11906 D RILJ : Unsol response received; Sending ack to ril.cpp [SUB0]
+
+04-22 11:02:56.932 11754 11906 D RILJ : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB0]
+
+04-22 11:02:56.933 11754 12278 D NetworkRegistrationManager: onNetworkStateChanged
+
+04-22 11:02:56.933 11754 11754 D SST : [0] pollState: modemTriggered=true, RadioState: RADIO_ON
+
+04-22 11:02:56.933 11754 11906 D use-Rlog/RLOG-IMS-IIL: ImsSecChannelCallback: receive
+
+04-22 11:02:56.933 11754 11906 D use-Rlog/RLOG-IMS-IIL: IpcDispatcher: [Rx]: (M)IPC_IIL_CMD (S)IPC_IIL_SSAC_INFO (T)EVENT l:13
+
+04-22 11:02:56.933 11754 11754 D RILJ : [1814]> OPERATOR [SUB0]
+
+04-22 11:02:56.933 11754 12394 D use-Rlog/RLOG-IMS-IIL: ImsIilManager: handleMessage: event 100
+

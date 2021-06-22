@@ -1,0 +1,1 @@
+adb logcat –b radio > radio.txt

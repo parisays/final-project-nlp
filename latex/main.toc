@@ -1,0 +1,7 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}\lr {word2vec}}{4}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}\lr {language modeling}}{5}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}\lr {fine tuning}}{5}{section.3}%
