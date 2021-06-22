@@ -11,7 +11,7 @@ from pandas.plotting import table
 
 data_path = "../../data/tokenization/All.txt"
 # os.system("cp {0} train.txt")
-spm.SentencePieceTrainer.train('--input={0} --model_prefix=tokenization --vocab_size=27524 --model_type=word'.format(data_path))
+spm.SentencePieceTrainer.train('--input={0} --model_prefix=tokenization --vocab_size=10000 --model_type=word'.format(data_path))
 
 # sp_user = spm.SentencePieceProcessor()
 # sp_user.load('tokenization.model')

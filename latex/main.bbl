@@ -17,6 +17,28 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{Ref4}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DD}{%
+         family={Dhami},
+         familyi={D\bibinitperiod},
+         given={Dharti},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DD1}
+    \strng{fullhash}{DD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Understanding BERT — Word Embeddings}
+    \verb{url}
+    \verb https://medium.com/@dhartidhami/understanding-bert-word-embeddings-7d
+    \verb c4d2ea54ca#:~:text=The%20original%20word%20has%20been,represented%20a
+    \verb s%20subwords%20and%20characters.
+    \endverb
+    \field{type}{Web Page}
+  \endentry
+
   \entry{Ref3}{misc}{}
     \name{author}{1}{}{%
       {{hash=BD}{%

@@ -2,10 +2,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}\lr {word2vec}}{5}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}\lr {language model}}{7}{section.2}%
+\contentsline {section}{\numberline {2}\lr {tokenization}}{7}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}\lr {fine tuning}}{8}{section.3}%
+\contentsline {section}{\numberline {3}\lr {language model}}{8}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}مدل زبانی}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {4}\lr {fine tuning}}{9}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}رده بندی}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {4.1}مدل زبانی}{9}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}رده بندی}{10}{subsection.4.2}%

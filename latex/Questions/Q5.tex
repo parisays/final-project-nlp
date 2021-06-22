@@ -121,6 +121,46 @@
 		\end{center}
 	\end{table}
 
+مثال آورده شده در جدول
+\ref{tab54}
+جملات مناسب و مورد انتظاری را برای ژانرهای 
+\lr{Adventure}،
+\lr{Drama}
+و
+\lr{Fantasy}
+نشان می دهد. اما در این مثال جمله ژانرهای
+Comedy
+و
+Romance
+چندان واضح نیست. از دلایل آن می توان به کم بودن داده برای ژانر
+Comedy
+و کم بودن زمان 
+\lr{fine-tune}
+اشاره کرد.
+
+	\begin{table}
+	\begin{center}
+		\begin{tabular}{ |c|c| }
+			\hline
+			\textbf{Genre} & \textbf{Sentence} \\ 
+			\hline
+			Action  & \lr{ people from \textcolor{blue}{nowhere back world people world living nothing else} }\\
+			\hline
+			Adventure  & \lr{ people from \textcolor{blue}{zeros adventure game world game earth}} \\
+			\hline
+			Fantasy  & \lr{ people from \textcolor{blue}{childhood suddenly became good friend classmate father}} \\
+			\hline
+			Drama & \lr{ people from \textcolor{blue}{south europee nation countrynats}} \\
+			\hline
+			Comedy  & \lr{people from \textcolor{blue}{ yuusuke also known haru}} \\
+			\hline
+			Romance  & \lr{people from \textcolor{blue}{different world come take home money school student}} \\
+			\hline
+		\end{tabular}
+		\caption{\label{tab54}مقایسه جملات تولید شده \lr{fine-tune}}
+	\end{center}
+\end{table}
+
 در مجموع جملات تولید شده توسط مدل های 
 \lr{fine-tune}
 شده، کیفیت و خوانایی بهتری نسبت به مدل های قسمت قبل دارد که این نشان دهنده مزایای استفاده از مدل های از پیش آموزش دیده است. مثال های آورده شده از مجموعه پیش بینی های مدل ها دستچین شده اند. فایل کامل کلمات تولید شده توسط هر مدل با اسم 
@@ -132,7 +172,7 @@
 
 \subsection{رده بندی}
 
-چالش رده بندی ژانر بر اساس خلاصه انیمه 
+چالش رده بندی ژانر بر اساس متن
 \lr{multilabel classification}
 نام دارد. در این قسمت هر خلاصه 12 برچسب دارد و بر پایه اینکه یک ژانر به این خلاصه تعلق داشته باشد مقدار صفر یا یک می گیرد \cite{Ref2}. مدل 
 \lr{bert-base-uncased}
@@ -140,7 +180,7 @@
  \lr{cross validation}
  و تابع خطا 
  \lr{binary cross entropy}
- آموزش می بیند. در پایان آموزش دقت مدل روی داده 
+ آموزش می بیند. در پایان آموزش، دقت مدل روی داده 
  \lr{validation}
  $18.52$
  و
