@@ -81,6 +81,7 @@ for word in elements_in_all:
     for idx1 in range(len(genre) - 1):
         for idx2 in range(idx1+1, len(genre)):
             # print(genre[idx1], genre[idx2])
+            word = 'brother'
             g1 = all_tokens[idx1][word]
             g2 = all_tokens[idx2][word]
             # print(g1)
@@ -93,5 +94,6 @@ for word in elements_in_all:
     table(ax, df, loc='center')  # where df is your data frame
 
     x = plt.gcf()
-    x.savefig('../../report/word2vec/{0}.png'.format(word))
+    x.savefig('../../reports/word2vec/{0}.png'.format(word))
+    break
     # break
