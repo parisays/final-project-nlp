@@ -39,7 +39,7 @@ if __name__ == '__main__':
     print(f"Using: {device}")
     dataset = Dataset(args, device)
     model = Model(dataset, device)
-    model.load_state_dict(torch.load(os.path.join("../../models/language_model/", f"{args.char}.language_model.pth")))
+    model.load_state_dict(torch.load(os.path.join("../../models/language_model", f"{args.char}.language_model.pth")))
     file = open(f"../../reports/language_model/{args.char}_language_model/{args.char}_predictions.txt","a+")
     text = ' '.join(predict(dataset, model, text=args.input, next_words=args.length))
     file.write(str(text)+ os.linesep)
