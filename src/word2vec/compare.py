@@ -35,22 +35,15 @@ all_word_vectors = []
 
 for label in genre:
     data_path = "../../data/word2vec/{0}.txt".format(label)
-    model_path = "../../models/word2vec/{0}/".format(label)
+    model_path = "../../models/word2vec/".format(label)
 
-    os.system("cp ../../data/word2vec/{0}.txt utils/datasets/stanfordSentimentTreebank/datasetSentences.txt".format(label))
+    os.system("cp {0} utils/datasets/stanfordSentimentTreebank/datasetSentences.txt".format(data_path))
 
-    st = 0
-    for f in glob.glob(model_path + "saved_params_*.npy"):
-        iter = int(op.splitext(op.basename(f))[0].split("_")[2])
-        if (iter > st):
-            st = iter
-
-    if st > 0:
-        params_file = model_path + "saved_params_%d.npy" % st
-        state_file = model_path + "saved_state_%d.pickle" % st
-        params = np.load(params_file)
-        with open(state_file, "rb") as f:
-            state = pickle.load(f)
+    params_file = model_path + "{0}.word2vec.npy".format(label)
+    state_file = model_path + "{0}.word2vec.pickle".format(label)
+    params = np.load(params_file)
+    with open(state_file, "rb") as f:
+        state = pickle.load(f)
         # return st, params, state
     
     dataset = StanfordSentiment()
@@ -81,7 +74,6 @@ for word in elements_in_all:
     for idx1 in range(len(genre) - 1):
         for idx2 in range(idx1+1, len(genre)):
             # print(genre[idx1], genre[idx2])
-            word = 'brother'
             g1 = all_tokens[idx1][word]
             g2 = all_tokens[idx2][word]
             # print(g1)
@@ -95,5 +87,4 @@ for word in elements_in_all:
 
     x = plt.gcf()
     x.savefig('../../reports/word2vec/{0}.png'.format(word))
-    break
     # break
