@@ -16,7 +16,7 @@ from torch.utils.data import TensorDataset, random_split
 # dataset = TensorDataset(sentence_df['Description'].values
 from datasets import Dataset, DatasetDict
 from transformers import pipeline
-from MLM import train_MLM
+from LM import train_LM
 
 load_path = '../../data/fine_tuning/'
 sentence_df = pd.read_pickle(load_path + 'sentence_df.pkl')
@@ -60,7 +60,7 @@ for idx in range(6):
                        })
 
     
-    model, tokenizer, perplexity = train_MLM(dataset, dir)
+    model, tokenizer, perplexity = train_LM(dataset, dir)
 
     model.save_pretrained(dir)
 
