@@ -1,0 +1,19 @@
+#4 - correct format
+1	one	_	NUM	CD	_	2	nummod	_	_
+2	day	_	NOUN	NN	_	4	obl:tmod	_	_
+3	hokoda	_	PROPN	NNP	_	4	nsubj	_	_
+4	meets	_	VERB	VBZ	_	0	root	_	_	
+5	hina	_	PROPN	NNP	_	4	obj	_	_
+6	in	_	ADP	IN	_	10	case	_	_
+7	a	_	DET	DT	_	10	det	_	_
+8	busy	_	ADJ	JJ	_	10	amod	_	_
+9	street	_	NOUN	NN	_	10	compound	_	_
+10	corner	_	NOUN	NN	_	4	obl	_	_
+
+#8 - correct format
+1	however	_	ADV	RB	_	3	advmod	_	_
+2	everything	_	NOUN	NN	_	3	nsubj	_	_
+3	was	_	AUX	VBD	_	0	aux	_	_
+4	going	go	VERB	VBG	_	0	root	_	_
+5	magically	_	ADV	RB	_	6	advmod	_	_
+6	well	good	ADV	RB	_	4	advmod	_	_
