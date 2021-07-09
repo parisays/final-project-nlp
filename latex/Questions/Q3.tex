@@ -1,1 +1,48 @@
 \section{\lr{parsing}}
+
+برای این قسمت از مدل آموزش دیده تمرین سوم استفاده شده است. جملات انتخاب شده با استفاده از سایت
+\href{https://corenlp.run/}{corenlp}
+برچسب گذاری شدند. دقت مدل روی این 10 جمله 
+\lr{\texttt{UAS $= 72.92$}}
+است. از آنجایی که در مرحله پیش پردازش، کلمات پرتکرار (\lr{stopwords}) از مجموعه داده حذف شده اند و بر روی کلمات 
+Lemmatization
+اعمال شده است؛ عملکرد مدل آموزش دیده روی این جملات محدود است. برای مثال، مدل برای جمله زیر $62.5\%$ از روابط را به درستی پیش بینی می کند:
+\begin{center}
+	\lr{\texttt{\lr{one day hokoda meet hina busy street corner}}}
+\end{center}
+
+
+برای این جمله head کلمه one به جای day به اشتباه کلمه meet پیش بینی می شود. همچنین head کلمه busy به جای street به اشتباه corner پیش بینی می شود. خطای مدل در اینجا به دلیل حذف کردن stopwords و استفاده از
+Lemmatization
+است؛ زیرا صورت کامل جمله که در زیر آمده است توسط مدل کاملا صحیح برچسب گذاری می شود.
+\begin{center}
+	\lr{\texttt{\lr{one day hokoda meets hina in a busy street corner}}}
+\end{center}
+
+مثال دیگری از جملاتی که به دلیل حذف شدن stopwords از داده، 
+\lr{dependancy parse}
+آنها اشتباه به دست می آید در زیر آورده شده است:
+\begin{center}
+	\lr{\texttt{\lr{luffy meet friend thought dead}}}
+\end{center}
+صورت کامل جمله:
+\begin{center}
+	\lr{\texttt{\lr{luffy meets a friend who thought wass dead}}}
+\end{center}
+
+در این جمله به دلیل حذف شدن کلمات میانی، مدل به اشتباه head کلمه friend را thought پیش بینی می کند در صورتی که meet صحیح است. همچنین head کلمه thought را meet پیش بینی می کند در صورتی که dead صحیح است و head کلمه dead را thought پیش بینی می کند در حالی که کلمه friend صحیح است.
+
+علاوه بر مشکل ذکر شده، برخی از برچسب گذاری های نادرست به دلیل کمبود داده به وجود می آیند. برای مثال:
+
+\begin{center}
+	\lr{\texttt{\lr{however everything going magically well}}}
+\end{center}
+
+صورت کامل جمله:
+
+
+\begin{center}
+	\lr{\texttt{\lr{however, everything was going magically well}}}
+\end{center}
+
+مدل برای این جمله فقط head کلمه away را به درستی پیش بینی می کند. از آنجایی که مدل روی صورت کامل جمله دقت $33.3\%$ دارد؛ گمان می رود با آموزش مدل روی داده بیشتر بتوان این مشکلات را نیز برطرف کرد.
