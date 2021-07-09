@@ -262,6 +262,7 @@ class Parser(object):
                         if (self.with_punct) or (not punct(self.language, pos_str)):
                             UAS += 1 if pred_h == gold_h else 0
                             this_uas += 1 if pred_h == gold_h else 0
+                            print("predicted {0}, truth {1}".format(pred_h, gold_h))
                             all_tokens += 1
                             this_tokens += 1
                 prog.update(i + 1)

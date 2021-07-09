@@ -1,67 +1,67 @@
 #1
-1	monotonus	_	ADJ	JJ	_	_	3	amod	_	_
-2	life	_	NOUN	NN	_	_	3	compound	_	_
+1	monotonus	_	ADJ	JJ	_	2	amod	_	_
+2	life	_	NOUN	_	_	3	compound	_	_
 3	change	_	VERB	_	_	0	root	_	_
 4	forever	_	ADV	_	_	3	dep	_	_
 
 #2
-1	midst	_	NOUN	NN	_	_	3	nmod	_	_
-2	blood	_	NOUN	NN	_	_	3	compound	_	_
-3	bath	_	NOUN	NN	_	_	4	nsubj	_	_
-4	meet		meet	VERB	_	_	0	root	_	_
-5	love	_	NOUN	NN	_	_	6	compound	_	_
-6	life	_	NOUN	NN	_	_	7	compound	_	_
-7	tomoe	_	PROPN	NNP	_	_	4	obj	_	_
+1	midst	_	NOUN	NN	_	3	nmod	_	_
+2	blood	_	NOUN	NN	_	3	compound	_	_
+3	bath	_	NOUN	NN	_	4	nsubj	_	_
+4	meet	_	VERB	VBP	_	0	root	_	_
+5	love	_	NOUN	NN	_	6	compound	_	_
+6	life	_	NOUN	NN	_	7	compound	_	_
+7	tomoe	_	PROPN	NNP	_	4	obj	_	_
 
 #3
-1	world	_	NOUN	NN	_	_	2	nsubj	_	_
-2	become	_	VERB	_	_	0	root	_	_	
-3	battlefield	_	NOUN	NN	_	_	4	compound	_	_
-4	destruction	_	NOUN	NN	_	_	2	xcomp	_	_
+1	world	_	NOUN	NN	_	2	nsubj	_	_
+2	become	_	VERB	VB	_	0	root	_	_	
+3	battlefield	_	NOUN	NN	_	4	compound	_	_
+4	destruction	_	NOUN	NN	_	2	xcomp	_	_
 
-#4
-1	one	_	NUM	CD	_	_	2	nummod	_	_
-2	day	_	NOUN	NN	_	_	4	npadvmod	_	_
-3	hokoda	_	PROPN	_	4	nsubj	_	_
-4	meet	_	VERB	_	_	0	root	_	_	
-5	hina	_	PROPN		_	_	4	dobj	_	_
-6	busy	_	ADJ	JJ	_	_	7	amod	_	_
-7	street	_	NOUN	NN	_	_	8	compound	_	_
-8	corner	_	NOUN	NN	_	_	4	npadvmod	_	_
-
-#6
-1	souma	_	PROPN	_	_	3	compound	_	_
-2	new	_	ADJ	JJ	_	_	3	amod	_	_
-3	battle	_	NOUN	_	4	nsubj	_	_
-4	begin	_	VERB	_	_	0	root	_	_
-
-#7
-1	scenery	_	NOUN	_	_	3	nsubj	_	_
-2	never	_	ADV	_	_	3	neg	_	_
-3	seen	_	VERB	_	_	0	root	_	_
-
-#8
-1	become	_	VERB	_	_	0	root	_	_
-2	invisible	_	ADJ	JJ	_	_	1	xcomp	_	_
+#4 - stopwords
+1	one	_	NUM	CD	_	2	nummod	_	_
+2	day	_	NOUN	NN	_	4	obl:tmod	_	_
+3	hokoda	_	PROPN	NNP	_	4	nsubj	_	_
+4	meet	_	VERB	VB	_	0	root	_	_	
+5	hina	_	PROPN	NNP	_	4	obj	_	_
+6	busy	_	ADJ	JJ	_	7	amod	_	_
+7	street	_	NOUN	NN	_	8	compound	_	_
+8	corner	_	NOUN	NN	_	4	obl	_	_
 
 #5
-1	however	_	ADV	_	_	3	advmod	_	_
-2	everything	_	NOUN	_	_	3	nsubj	_	_
-3	going	go	VERB	_	_	0	root	_	_
-4	magically	_	ADV	_	_	5	advmod	_	_
-5	well	good	ADV	RB	_	_	3	advmod	_	_
+1	souma	_	PROPN	NNP	_	3	compound	_	_
+2	new	_	ADJ	JJ	_	3	amod	_	_
+3	battle	_	NOUN	NN	_	4	nsubj	_	_
+4	begin	_	VERB	VB	_	0	root	_	_
+
+#6
+1	scenery	_	NOUN	NN	_	3	nsubj	_	_
+2	never	_	ADV	RB	_	3	neg	_	_
+3	seen	_	VERB	VBN	_	0	root	_	_
+
+#7
+1	become	_	VERB	VB	_	0	root	_	_
+2	invisible	_	ADJ	JJ	_	1	xcomp	_	_
+
+#8 - data
+1	however	_	ADV	RB	_	3	advmod	_	_
+2	everything	_	NOUN	NN	_	3	nsubj	_	_
+3	going	go	VERB	VBG	_	0	root	_	_
+4	magically	_	ADV	RB	_	5	advmod	_	_
+5	well	good	ADV	RB	_	3	advmod	_	_
 
 #9
-1	jun	_	PROPN	NNP	_	_	1	compound		_	_
-2	girl	_	NOUN	_	_	5	nsubj	_	_	
+1	jun	_	PROPN	NNP	_	2	compound	_	_
+2	girl	_	NOUN	NN	_	5	nsubj	_	_	
 3	whose	_	PRON	WP$	_	4	nmod:poss	_	_
-4	word	_	NOUN	_	_	5	nsubj	_	_
-5	sealed	_	VERB	_	_	0	root	_	_
-6	away	_	ADV	_	_	5	advmod	_	_
+4	word	_	NOUN	NN	_	5	nsubj	_	_
+5	sealed	_	VERB	VB	_	0	root	_	_
+6	away	_	ADV	RB	_	5	advmod	_	_
 
-#10
-1	luffy	_	PROPN	_	_	2	nsubj	_	_
-2	meet	_	VERB	_	_	0	root	_	_
-3	friend	_	NOUN	_	_	2	obj	_	_
-4	thought	_	VERB	_	_	3	acl	_	_
-5	dead	_	ADJ	JJ	_	_	4	xcomp	_	_
+#10 - stopwords
+1	luffy	_	PROPN	NNP	_	2	nsubj	_	_
+2	meet	_	VERB	VBP	_	0	root	_	_
+3	friend	_	NOUN	NNP	_	2	obj	_	_
+4	thought	_	VERB	VBN	_	3	acl	_	_
+5	dead	_	ADJ	JJ	_	4	xcomp	_	_
