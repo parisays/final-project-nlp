@@ -23,7 +23,7 @@ global block_size
 block_size = 128
 
 
-def train_MLM(dataset, dir):
+def train_LM(dataset, dir):
     def tokenize_function(examples):
         return tokenizer(examples["text"])
 
